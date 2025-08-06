@@ -1,0 +1,101 @@
+* {
+    background-color: lightpink;
+    color: brown;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    border-top: 2px solid brown;
+}
+
+header {
+    border-bottom: 1px solid brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.container-main {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container-main img {
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+section img {
+    max-width: 30%;
+    border: 5px solid hotpink;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+}
+
+nav span {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+    width: 35px;
+    gap: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: brown;
+    font-weight: 200;
+}
+
+li a:hover {
+    transition: .8s;
+    letter-spacing: 5px;
+}
