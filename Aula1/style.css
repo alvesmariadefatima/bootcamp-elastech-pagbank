@@ -1,0 +1,31 @@
+body {
+    background-color: hotpink;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.menu {
+    background-color: pink;
+    font-size: 25px;
+    font-weight: 200px;
+    text-align: center;
+}
+
+p, li, h3 {
+    color: white;
+    font-weight: 200px;
+}
+
+footer {
+    background-color: pink;
+    text-align: center;
+}
+
+.img-perfil {
+    text-align: left;
+    margin-top: 20px;
+}
